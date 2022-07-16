@@ -1,3 +1,1 @@
-# node-tpqzhi
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/node-tpqzhi)
+Workspace for node js practice :)
