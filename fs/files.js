@@ -43,6 +43,10 @@ fs.mkdir('./assets', (err) => {
 
 */
 
+/*
+
+removing directories
+
 if (!fs.existsSync('./assets')) {
   fs.mkdir('./assets', (err) => {
     if (err) console.log(err);
@@ -56,3 +60,6 @@ if (!fs.existsSync('./assets')) {
 
   console.log('folder existed and deleted successfully using rmdir');
 }
+
+
+*/
