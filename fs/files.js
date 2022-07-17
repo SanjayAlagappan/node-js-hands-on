@@ -63,3 +63,20 @@ if (!fs.existsSync('./assets')) {
 
 
 */
+
+/*
+
+deleting files;
+
+
+if (fs.existsSync('./files/delete_data.txt')) {
+  fs.unlink('./files/delete_data.txt', (err) => {
+    if (err) console.log('fix the filename or dir at deletion line code');
+    else console.log('deleted successfully');
+  });
+} else {
+  console.log('no such file!!!');
+}
+
+
+*/
