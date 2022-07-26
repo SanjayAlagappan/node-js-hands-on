@@ -9,7 +9,8 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/html');
   res.write('<h1>Hey there!!!</h1>');
   res.write("<p>How y'all doing</p>");
-  res.end(); //res.end('data') can also be passed since we are just using a single data chunk.
+  res.end();
+  //res.end('data') can also be used since we are just using a single data chunk. if the response wasnt closed(ended) it will result in forever loading of the app without showing any response on the browser.
 });
 
 server.listen(3000, 'localhost', () => {
