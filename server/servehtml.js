@@ -19,6 +19,7 @@ const server = http.createServer((req, res) => {
     case '/about-me':
       res.statusCode = 301;
       res.setHeader('Location', '/about');
+      res.end(); //not necessary tho since it worked fine while checking.
       break;
 
     default:
